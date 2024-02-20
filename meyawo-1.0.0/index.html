@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="assets/css/meyawo.css">
     <!-- placer "technicien informatique" sur une même ligne -->
 </head>
-
+<!-- Bienvenue dans les travers de mon portfolio, j'en ai passé des heures là-dessus. Je tiens à remercier MR GUICHARD car sans lui et le tp du cv en html css 
+    (bon ok on pouvait faire du bootstrap mais j'ai préférer me lancer à fond tête baissé dans l'html css js). Bref, sans lui je n'arriverai pas à déplacer une image ou même changer la couleur d'un titre H2.-->
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page Navbar -->
@@ -56,7 +57,7 @@
                 <span class="up">Maxime</span>
                 <span class="down"> BACON</span>
             </h1>
-            <p class="header-subtitle">Technicien Informatique <br>finir veille techno</p>
+            <p class="header-subtitle">Technicien Informatique <br>finir veille techno <br> remplir le tableau de compétences</p>
         </div>
     </header><!-- end of page header -->
 
@@ -141,18 +142,7 @@
 
     
 
-    <!-- Veille section -->
-    <section class="section" id="veille / tableau">
-        <div class="container text-center">
-            <p class="section-subtitle">Veille Technologique / Tableau de synthèse</p>
-            <h6 class="section-title mb-6">La Cyber-Sécurité au service de la Nation</h6>
-            <div><p></p></div>
-            <a href="assets/imgs/tableau.png" class="btn btn-primary" target="_blank">Tableau</a>
-            <a href="veilletechno.html" class="btn btn-primary">veille techno</a>
 
-            <!-- <img class="image" src="assets/imgs/tableau.png" alt="tableau de synthèse"> -->
-        </div> <!-- end of container -->
-    </section><!-- end of Veille section -->
 
     
 
@@ -168,25 +158,23 @@
         <h1 class="heading"> <span>Études</span> </h1>
         <div class="box-container">
             
-            <div class="box">
-                <img src="assets/imgs/diplome.jpeg" alt="diplome">
+            <div class="box1">
+                <img class="img" src="assets/imgs/diplome.jpeg" alt="diplome">
             </div>
-            <div class="box">
+            <div class="box2">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2019 - 2022</span>
-                <p class="btssio">BAC Pro SN</p>
+                <p class="bacpro">BAC Pro SN</p>
                 <p>Lycée Le Marais Ste Thérèse  ST
                     Etienne </p>
             </div>
 
-            <div class="box">
+            <div class="box2">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2022 - 2024</span>
                 <p class="btssio">BTS SIO</p>
                 <p>CFAI <br>  Saint-Etienne </p>
-            </div>
-    
-            
+            </div>  
         </div>
     
     </section>
@@ -199,10 +187,10 @@
         <div class="container text-center">
             <p class="section-subtitle">Expériences professionnelles</p>
 
-        <h1 class="heading"> <span>Historique</span> </h1>
+        <h1 class="heading"> <span>Apprentissage</span> </h1>
         <div class="box-container">
     
-            <div class="box">
+            <div class="box2">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2021 - 2022</span>
                 <p class="btssio">NCS Informatique</p>
@@ -210,11 +198,14 @@
                 
             </div>
 
-            <div class="box">
+            <div class="box2">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2022 - 2024</span>
                 <p class="btssio">ZF / Powerglide</p>
                 <a href="zf.html" class="btn btn-primary">en savoir plus </a>
+            </div>
+            <div class="box1">
+                <img src="assets/imgs/experience.jpeg" alt="Expériences professionnelles">
             </div>
     
             
@@ -290,19 +281,61 @@
     </section><!-- end of Projet section -->
 
 
+<!-- service section -->
+<section class="section" id="service">
+    <div class="container text-center">
+        <p class="section-subtitle"></p>
+        <h6 class="section-title mb-6">Documents</h6>
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/pencil-case.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            class="icon">
+                        <h6 class="title"></h6>
+                        <a href="assets/imgs/tableau.png" class="btn btn-primary">Tableau de compétences</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/responsive.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            class="icon">
+                        <h6 class="title"></h6>
+                        <a href="hyper.html" class="btn btn-primary">Veille Technologique 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/toolbox.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            class="icon">
+                        <h6 class="title"></h6>
+                        <a href="cyber.html" class="btn btn-primary">Veille Technologique 2</a>
 
-
-
-
-
-    <section>
-        <div class="bouttons">
-            <a href="veilletechno.html" class="btn btn-primary">veille techno</a>
-            <a href="ncs.html" class="btn btn-primary">NCS Informatique</a>
-            <a href="zf.html" class="btn btn-primary">ZF / Dumarey Powerglide</a>
-            <a href="E4.html" class="btn btn-primary">E4</a>
-        </div>
-    </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/analytics.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                            class="icon">
+                        <h6 class="title"></h6>
+                        <a href="E4.html" class="btn btn-primary">E4</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of row -->
+    </div>
+</section><!-- end of service section -->
 
 
 
