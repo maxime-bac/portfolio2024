@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
-    <!-- placer "technicien informatique" sur une même ligne -->
+    <style>
+
+      section{
+         height: 100vh;
+         margin: 0;
+      }
+
+    </style>
+
+
+
+
 </head>
-<!-- Bienvenue dans les travers de mon portfolio, j'en ai passé des heures là-dessus. Je tiens à remercier MR GUICHARD car sans lui et le tp du cv en html css 
-    (bon ok on pouvait faire du bootstrap mais j'ai préférer me lancer à fond tête baissé dans l'html css js). Bref, sans lui je n'arriverai pas à déplacer une 
-    image ou même changer la couleur d'un titre H2.-->
-
-
 
     <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -53,7 +59,7 @@
                 <span class="down">Technologique</span>
             </h1>
             <p class="header-subtitle">
-            Nouvelles Technologies de Cryptographie et de Protection des Données</p>
+               Les Honeypots</p>
         </div>
     </header><!-- end of page header -->
 
@@ -64,22 +70,48 @@
 
 
     <!-- about section -->
-    <section class="section pt-0" id="à propos">
+    <section class="section" id="section">
+        
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/avatar10.jpeg" class="about-img">
+                    <img src="assets/imgs/intro.jpeg" class="about-img">
                 </div>
                 <div class="about-caption">
-                    <p class="section-subtitle">Qui suis-je ?</p>
-                    <h2 class="section-title mb-3">À propos</h2>
+                    <p class="section-subtitle"></p>
+                    <h2 class="section-title mb-3">Introduction </h2>
                     <p>
-                        3 années d'alternance m'ont permis d'apprendre les ficelles du métier d'ingénieur informatique   
+                        <span style="color: #695aa6; font-weight: bold;">Les honeypots</span> jouent un rôle crucial en cybersécurité, en permettant <u>la détection, la surveillance et l'analyse</u> des activités malveillantes 
+                    sur les réseaux informatiques. Ces outils simulent des systèmes, des services ou des données vulnérables pour attirer les attaquants, 
+                    offrant ainsi aux professionnels de la sécurité une meilleure compréhension des menaces et une opportunité de renforcer la posture de sécurité.
                     </p>
-                    <a class="btn btn-primary" href="https://bts.maximebacon.fr/" target="_blank">CV</a>
-                    <a class="btn btn-primary" href="assets/imgs/tableaucompetences.png" target="_blank">Tableau</a>
+
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section>
+    <section>
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/winnie1.jpeg" class="about-img">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle"></p>
+                    <h2 class="section-title mb-3">Honeypot ? </h2>
+                    <p>
+                        <span style="color: #695aa6; font-weight: bold;">Un honeypot</span> est un concept mis au point par des experts en sécurité informatique dont <u>le but n’est pas d’empêcher 
+                        les pirates d’entrer sur leurs systèmes, mais au contraire de les piéger lorsqu’ils viennent</u>. Et donc d’étudier 
+                        leur comportement pour mieux s’en protéger, en plus de leur restreindre l’accès à tout le système en production.
+                        <br>
+                        <br>
+                        Le pot de miel doit ainsi être correctement configuré en fonction des attaquants à étudier. Une configuration trop 
+                        simpliste laissera entrer les script-kiddies (individus peu expérimentés en informatique qui utilisent des scripts) et autres logiciels automatisés. Tandis que les attaques plus ciblées 
+                        dont la méthodologie est la plus intéressante demandent une configuration adaptée.
+                    </p>
 
                 </div>
             </div><!-- end of about wrapper -->
@@ -89,163 +121,159 @@
 
 
 
+<!-- about section -->
+<section class="section" id="section">
+   <!-- container -->
+   <div class="container text-center">
+       <!-- about wrapper -->
+       <div class="about">
+           <div class="about-img-holder">
+               <img src="assets/imgs/honeypot5.webp" class="about-img">
+           </div>
+           <div class="about-caption">
+               <p class="section-subtitle"></p>
+               <h2 class="section-title mb-3">Types de Honeypots:</h2>
+               <div class="container">
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt=""> 
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Honeypots de Recherche:</span> Utilisés pour <u>collecter des données sur les attaquants et leurs méthodes</u>, souvent dans des environnements contrôlés et isolés. 
+                        </p>
+                     </div>
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Honeypots de Production:</span> Déployés dans des environnements de production pour <u>détecter et répondre aux intrusions en temps réel</u>, souvent utilisés en conjonction 
+                            avec d'autres systèmes de sécurité.
+                        </p>
+                     </div>
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Honeynets:</span> <u>Réseaux complets de honeypots qui simulent un environnement.</u> Réseau complet, offrant une vision plus large des activités malveillantes.
+                        </p>
+                     </div>
+               </div>
+           </div>
+       </div><!-- end of about wrapper -->
+   </div><!-- end of container -->
+</section> <!-- end of about section -->
 
-
-
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">De quoi suis-je capable ?</p>
-            <h6 class="section-title mb-6">Projets mis en oeuvre</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pencil-case.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Serveur DHCP</h6>
-                            <p class="subtitle">J'ai participé à la création d'un GLPI. Depuis je l'utilise au quotidien</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/responsive.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Formatage par PXE</h6>
-                            <p class="subtitle">Nécessaire quand j'ai du gérer plus de 400 ordinateurs </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Installation d'un serveur NAS</h6>
-                            <p class="subtitle">J'ai les compétences pour établir rapidement un diagnostique fiable et résoudre le problème</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Serveur Ubuntu</h6>
-                            <p class="subtitle">J'ai participé au changement d'un AD.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Déploiement MDT</h6>
-                            <p class="subtitle">J'ai les compétences pour établir rapidement un diagnostique fiable et résoudre le problème</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Active Directory</h6>
-                            <p class="subtitle">J'ai participé au changement d'un AD.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
-        </div>
-    </section><!-- end of service section -->
-
-    
 
 
 
     
+<!-- about section -->
+<section class="section" id="section">
+   <!-- container -->
+   <div class="container text-center">
+       <!-- about wrapper -->
+       <div class="about">
+           <div class="about-img-holder">
+               <img src="assets/imgs/kippo.webp" class="about-img">
+               <!-- <img src="assets/imgs/anssi.png" class="about-img"> -->
+           </div>
+           <div class="about-caption">
+               <p class="section-subtitle"></p>
+               <h2 class="section-title mb-3">Exemple d'Honeypots</h2>
+               <div class="container">
 
-<!-- Projet section -->
-    <section class="section" id="projets">
-        <!-- container -->
-        <div class="container text-center">
-            <p class="section-subtitle">Présentation </p>
-            <h6 class="section-title mb-6">Veilles technologiques</h6>
-            <!-- Projet-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/cyber1.jpeg" class="blog-card-img"
-                     >
-                </div>
-                <div class="blog-card-body">
-                    <h5  class="blog-card-title">Outils de Surveillance Numérique et de Cyberdéfense</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="veille1.html">By: Maxime</a>
-                            <a href="veille1.html"><i class="ti-heart text-danger"></i> 301</a>
-                            <a href="veille1.html"><i class="ti-comment"></i> 444</a>
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt=""> 
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Kippo:</span> Un honeypot SSH qui <u>imite un serveur Linux vulnérable</u>, enregistrant les tentatives d'authentification et les commandes des attaquants 
+                            pour analyse ultérieure.
                         </p>
+                     </div>
 
-                        <p  >
-                            <b>La surveillance numérique et la cyberdéfense sont des domaines critiques pour les agences de renseignement 
-                               telles que la DGSE et la DGSI. 
-                            </b>
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Cowrie:</span> Une évolution de Kippo, offrant des fonctionnalités améliorées et une meilleure résistance aux attaques.
                         </p>
+                     </div>
 
-                        <p  >Cette veille technologique vise à suivre les derniers outils et technologies 
-                            utilisés par ces agences dans le domaine de la surveillance numérique et de la cyberdéfense.</p>
-
-                        <a href="veille1.html" class="btn btn-primary">en savoir plus</a>
-                        
-
-                        
-                </div>
-            </div><!-- end of Projet wrapper -->
-
-            <!-- blog-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/chevaldetroie.jpeg" class="blog-card-img">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Surveillance des Nouvelles Technologies de Cryptographie et de Protection des Données</h6>
-
-                        <p class="blog-card-caption">
-                            <a href="veille2.html" >By: Maxime</a>
-                            <a href="veille2.html" ><i class="ti-heart text-danger"></i> 667</a>
-                            <a href="veille2.html" ><i class="ti-comment"></i> 80</a>
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Thug:</span> Un honeypot de phishing HTTP <u>simulant des sites Web vulnérables</u> pour attirer les attaquants tentant d'exploiter des failles de sécurité.
                         </p>
+                     </div>
 
-                        <p><b>La cryptographie et la protection des données sont essentielles pour assurer la sécurité des informations sensibles dans un monde numérique.
-                        </b></p>
-
-                            <p>Cette veille technologique vise à suivre les dernières avancées dans le domaine de la cryptographie et des technologies de protection des 
-                            données pour renforcer la sécurité des informations sensibles.</p>
-
-                            <a href="veille2.html" class="btn btn-primary">en savoir plus</a>
-
-                        
-                </div>
-            </div><!-- end of Projet wrapper -->
-
-        </div><!-- end of container -->
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <span style="color: #695aa6; font-weight: bold;">Conpot:</span> Spécialisé dans la détection des attaques visant <u>les systèmes de contrôle industriel (ICS)</u>, ce honeypot contribue à la sécurité des infrastructures critiques.                        </p>
+                     </div>
+               </div>
+           </div>
+       </div><!-- end of about wrapper -->
+   </div><!-- end of container -->
+</section> <!-- end of about section -->
     
 
 
+    
 
+    
+
+
+<!-- about section -->
+<section class="section" id="section">
+   <!-- container -->
+   <div class="container text-center">
+       <!-- about wrapper -->
+       <div class="about">
+           <div class="about-img-holder">
+               <img src="assets/imgs/anecdote.jpeg" class="about-img">
+           </div>
+           <div class="about-caption">
+               <p class="section-subtitle"></p>
+               <h2 class="section-title mb-3">Anecdote</h2>
+               <p>
+                    En <u>1999</u>, des chercheurs en sécurité ont créé le premier 
+                    honeynet en déployant des systèmes vulnérables sur Internet pour étudier les attaques. Ils ont rapidement constaté que leurs systèmes 
+                    étaient compromis en quelques heures seulement, mettant en évidence la vitesse et l'ampleur des menaces en ligne.
+               </p>
+
+           </div>
+       </div><!-- end of about wrapper -->
+   </div><!-- end of container -->
+</section> <!-- end of about section -->
         
 
+
+<!-- about section -->
+<section class="section" id="section">
+    <!-- container -->
+    <div class="container text-center">
+        <!-- about wrapper -->
+        <div class="about">
+            <div class="about-img-holder">
+                <img src="assets/imgs/interdit.jpeg" class="about-img">
+            </div>
+            <div class="about-caption">
+                <p class="section-subtitle"></p>
+                <h2 class="section-title mb-3">Ne reproduisez pas ça chez vous !</h2>
+                <p>
+                    Si l’on n’entend pas beaucoup parler de ces honeypots, c’est notamment car il y a un potentiel problème sur le plan juridique du fait de leur utilisation.
+                    Effectivement, <u>l’article 23 de la loi du 29 juillet 1881 sur la liberté de la presse</u> nous dit que :
+
+                </p>
+                    <!-- <a href="assets/imgs/article.png" class="about-img"></a> -->
+                    <img src="assets/imgs/article.png" alt="">
+                <p>
+                    Ici, le fait de <strong>« provoquer à commettre une action »</strong> (le piratage) rend complice de cette action.
+                    Il sera donc difficile de se plaindre d’un piratage dans le cas où l’on est complice de celui-ci.
+                    Ce n’est pas le seul problème légal, car le honeypot récupère probablement des données à caractère personnel 
+                    dont le traitement doit d’abord faire l’objet d’une déclaration à la <strong>CNIL</strong>.
+
+                </p>
+ 
+            </div>
+        </div><!-- end of about wrapper -->
+    </div><!-- end of container -->
+ </section> <!-- end of about section -->
 
 
 
@@ -257,7 +285,7 @@
         <footer class="footer">
             <p class="mb-0">Copyright 
                 <script>document.write(new Date().getFullYear())</script> &copy; 
-                <a>Réalisé à la main à partir d'un </a>
+                <a>Réalisé à la main à partir d'un bootstrap</a>
             </p>
             
             
@@ -277,3 +305,6 @@
 </body>
 
 </html>
+
+
+<!-- Mettre l'intro et l'explication cote à cote -->
