@@ -27,45 +27,55 @@
 
     <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <!-- <a class="logo">Wordpress</a> -->
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Accueil</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="veille2.html">Veille Technologique n°2</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="index.html">Portfolio</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                    <div class="hamburger-inner"></div>
-                </div>
-            </a>
-        </div>
-    </nav><!-- End of Page Navbar -->
+   
 
     <!-- page header -->
     <header id="home" class="header">
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="up">Mise en place</span>
-                <span class="down">WordPress</span>
+                <span class="up">Wordpress</span>
+                <span class="down">Ubuntu</span>
             </h1>
             <p class="header-subtitle">
-               nginx, php et MariaDB</p>
+                <img src="assets/imgs/nginx.png" style="height: 90px;">
+                <img src="assets/imgs/php.png" style="height: 90px;">
+                <img src="assets/imgs/mariadb.png" style="height: 80px;">
+               </p>
         </div>
     </header><!-- end of page header -->
 
 
 
+<!-- about section -->
+<section class="section" id="section">
+    <!-- container -->
+    <div class="container text-center">
+        <!-- about wrapper -->
+        <div class="about">
+            <div class="about-img-holder">
+                <img src="assets/imgs/wordpress.png" class="about-img">
+            </div>
+            <div class="about-caption">
+                <p class="section-subtitle"></p>
+                <h2 class="section-title mb-3" style="color: #8181ee;">Introduction </h2>
+                <p>
+                    <span style="color: #8181ee; font-weight: bold;">WordPress</span> est utilisé pour créer une grande variété de <u>sites web</u>, 
+                    tels que <u>des blogs</u>, <u>des sites d'entreprise</u>, <u>des portfolios</u>, <u>des boutiques en ligne</u>, <u>des forums</u>, etc. 
+                    <br>
+                    <br>
+                    Par exemple, une petite entreprise peut utiliser <span style="color: #8181ee; font-weight: bold;">WordPress</span> pour créer un <u>site web professionnel</u> et facile à gérer, tandis qu'un blogueur 
+                    peut l'utiliser pour <u>publier du contenu et interagir avec sa communauté</u>. 
+                    <br>
+                    <br>
+                    En résumé, <span style="color: #8181ee; font-weight: bold;">WordPress</span> est une plateforme polyvalente qui convient à de nombreux types de projets web.
+                    
+                </p>
 
+            </div>
+        </div><!-- end of about wrapper -->
+    </div><!-- end of container -->
+</section> <!-- end of about section -->
 
 
 
@@ -76,21 +86,74 @@
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/wordpress.png" class="about-img">
+                    <img src="assets/imgs/mail.jpeg" class="about-img">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle"></p>
+                    <h2 class="section-title mb-3" style="color: #8181ee;">Instalation </h2>
+                    <p>
+                        Le choix entre <span style="color: #35cf5e;"><b>Nginx</b></span> et Apache pour un serveur WordPress sous Ubuntu dépend souvent des besoins spécifiques de votre projet et de vos 
+                        préférences personnelles. <br>Cependant, voici quelques raisons pour lesquelles certains utilisateurs préfèrent Nginx à Apache pour exécuter WordPress :
+                        <br><br>
+                        <u><b>Performance :</b></u> Nginx est réputé pour sa légèreté et son efficacité en termes de consommation de ressources par rapport à Apache. 
+                        Il peut gérer efficacement un grand nombre de connexions simultanées avec moins de ressources système, ce qui peut améliorer les 
+                        performances globales de votre site WordPress, en particulier lors de pics de trafic.
+                        <br><br>
+                        <u><b>Traitement des requêtes concurrentes :</b></u> Nginx est souvent considéré comme plus performant qu'Apache pour gérer les requêtes concurrentes. 
+                        Il utilise une architecture de traitement asynchrone, ce qui lui permet de gérer efficacement de nombreuses connexions simultanées sans 
+                        consommer beaucoup de ressources.
+                        <br><br>
+                        <u><b>Configuration :</b></u> La syntaxe de configuration de Nginx est considérée comme plus simple et plus lisible que celle d'Apache, ce qui facilite 
+                        la configuration et la gestion du serveur pour les utilisateurs.
+                        <br><br>
+                        <u><b>Flexibilité :</b></u> Nginx est extrêmement flexible et peut être utilisé de diverses manières pour servir des sites Web statiques, dynamiques et 
+                        même des applications web complexes. Il est souvent utilisé comme serveur proxy inverse pour gérer le trafic et améliorer la sécurité.
+                        <br><br>
+                        <u><b>Sécurité :</b></u> Nginx est souvent considéré comme plus sécurisé qu'Apache en raison de sa conception légère et de son modèle de traitement des 
+                        requêtes. Il est également souvent mis à jour avec des correctifs de sécurité réguliers.
+                        <br><br>
+                        Cependant, Apache reste un choix très populaire et est également bien pris en charge par WordPress. La meilleure option pour votre installation 
+                        dépendra de divers facteurs, y compris votre niveau de familiarité avec chaque serveur, les exigences de performance de votre site, et d'autres 
+                        considérations spécifiques à votre projet. Il est recommandé de faire des tests et des évaluations approfondis avant de prendre une décision.
+                        
+                    </p>
+
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+
+
+    <!-- about section -->
+    <section class="section" id="section">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/mail1.jpeg" class="about-img">
                 </div>
                 <div class="about-caption">
                     <p class="section-subtitle"></p>
                     <h2 class="section-title mb-3" style="color: #8181ee;">Introduction </h2>
                     <p>
-                        <span style="color: #8181ee; font-weight: bold;">WordPress</span> est utilisé pour créer une grande variété de <u>sites web</u>, 
-                        tels que <u>des blogs</u>, <u>des sites d'entreprise</u>, <u>des portfolios</u>, <u>des boutiques en ligne</u>, <u>des forums</u>, etc. 
+                        Le publipostage, également connu sous le nom de mailing en masse, est une technique de communication marketing qui consiste à envoyer des 
+                        documents personnalisés à un grand nombre de destinataires. <br>Ces documents peuvent être :<br>
+                        <br>
+                        -	Des lettres
+                        <br>
+                        -	Des e-mails
+                        <br>
+                        -	Des brochures
+                        <br>
+                        -	Des cartes postales
                         <br>
                         <br>
-                        Par exemple, une petite entreprise peut utiliser <span style="color: #8181ee; font-weight: bold;">WordPress</span> pour créer un <u>site web professionnel</u> et facile à gérer, tandis qu'un blogueur 
-                        peut l'utiliser pour <u>publier du contenu et interagir avec sa communauté</u>. 
-                        <br>
-                        <br>
-                        En résumé, <span style="color: #8181ee; font-weight: bold;">WordPress</span> est une plateforme polyvalente qui convient à de nombreux types de projets web.
+                        L'objectif du publipostage est de fournir un message spécifique à chaque destinataire, en utilisant des données variables pour personnaliser 
+                        le contenu. Ces données variables peuvent inclure le nom du destinataire, son adresse, des informations sur ses achats précédents, ou toute autre 
+                        information pertinente.
+
                         
                     </p>
 
@@ -109,43 +172,49 @@
        <!-- about wrapper -->
        <div class="about">
            <div class="about-img-holder">
-               <img src="assets/imgs/dgse.jpeg" class="about-img">
-               <img src="assets/imgs/nso.jpeg" class="about-img">
+               <img src="assets/imgs/conclusion2.jpeg" class="about-img">
+               <!-- <img src="assets/imgs/" class="about-img"> -->
            </div>
            <div class="about-caption">
                <p class="section-subtitle"></p>
-               <h2 class="section-title mb-3">1. Rapports et Publications Officielles :</h2>
+               <h2 class="section-title mb-3" style="color: #8181ee;">Le processus de publipostage :</h2>
                <div class="container">
                      <div class="paragraph">
                         <img src="assets/imgs/" alt=""> 
                         <p>
-                           La surveillance numérique englobe un large éventail de technologies et de méthodes utilisées pour collecter, analyser et surveiller 
-                           les données numériques, allant des communications en ligne aux comportements sur les réseaux sociaux en passant par les activités de 
-                           navigation sur le web. Les gouvernements, les agences de renseignement et les entreprises privées déploient des outils sophistiqués 
-                           pour surveiller les individus, les groupes et les entités dans le but de détecter les menaces potentielles, de prévenir les activités 
-                           criminelles et de renforcer la sécurité nationale. <br>
+                            <u>1. Collecte des données :</u> <br>
+                            Rassemblez les informations sur vos destinataires, telles que leurs noms, adresses, préférences, historique d'achat, etc. 
                            
                         </p>
                      </div>
+
                      <div class="paragraph">
                         <img src="assets/imgs/" alt="">
                         <p>
-                           Les logiciels espions, les dispositifs d'interception légale et les techniques d'analyse de données en masse font partie intégrante de 
-                           l'arsenal des outils de surveillance numérique. Des entreprises telles que NSO Group, Hacking Team et Gamma Group sont parmi les principaux 
-                           fournisseurs de solutions de surveillance utilisées par les gouvernements à travers le monde [1]. Ces entreprises ont été au centre de 
-                           controverses concernant l'utilisation abusive de leurs outils pour surveiller les dissidents politiques, les journalistes et les défenseurs 
-                           des droits de l'homme [2].
-                           <a href="https://privacyinternational.org/report/807/global-surveillance-industry" target="_blank"><i>[1] Privacy International, "The Global Surveillance Industry," 2022.</i></a><br>
-                           <a href="https://citizenlab.ca/2023/04/nso-groups-pegasus-spyware-returns-in-2022/" target="_blank"><i>[2] Citizen Lab, "NSO Group: Spyware Vendors in the Digital Age," 2022.</i></a>
+                            <u>2. Création du document modèle :</u> <br>
+                            Concevez le document que vous allez envoyer, en laissant des espaces réservés pour les données variables qui seront personnalisées pour chaque 
+                            destinataire.
+                           
                         </p>
                      </div>
+
                      <div class="paragraph">
                         <img src="assets/imgs/" alt="">
                         <p>
-                           L'évolution rapide des technologies de chiffrement et de protection de la vie privée a également poussé les développeurs d'outils de surveillance 
-                           à innover pour contourner ces obstacles. Les techniques d'ingénierie sociale, les attaques de phishing et les logiciels malveillants ciblés 
-                           sont de plus en plus utilisés pour compromettre la sécurité des systèmes et accéder aux données sensibles [3].<br>
-                           <a href="https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/istr-24-cyber-security-threat-landscape" target="_blank"><i>[3] Symantec, "Internet Security Threat Report," 2023.</i></a>
+                            <u>3. Personnalisation du document : </u><br>
+                            Utilisez un logiciel de publipostage pour insérer les données variables dans le document modèle, créant ainsi des versions uniques 
+                            pour chaque destinataire.
+                           
+                        </p>
+                     </div>
+
+                     <div class="paragraph">
+                        <img src="assets/imgs/" alt="">
+                        <p>
+                            <u>4. Préparation et envoi : </u><br>
+                            Préparez les documents personnalisés pour l'envoi, que ce soit par courrier postal ou électronique. Assurez-vous de respecter les 
+                            réglementations en matière de protection des données et les bonnes pratiques en matière de marketing.
+                           
                         </p>
                      </div>
                </div>
@@ -165,44 +234,33 @@
        <!-- about wrapper -->
        <div class="about">
            <div class="about-img-holder">
-               <img src="assets/imgs/blob.png" class="about-img">
-               <img src="assets/imgs/anssi.png" class="about-img">
+               <!-- <img src="assets/imgs/" class="about-img">
+               <img src="assets/imgs/" class="about-img"> -->
            </div>
            <div class="about-caption">
                <p class="section-subtitle"></p>
-               <h2 class="section-title mb-3">2. Cyberdéfense :</h2>
+               <h2 class="section-title mb-3" style="color: #8181ee;">Travail effectué</h2>
                <div class="container">
                      <div class="paragraph">
                         <img src="assets/imgs/" alt=""> 
                         <p>
-                           Face à la multiplication des cybermenaces, la cyberdéfense est devenue un domaine d'investissement stratégique pour les gouvernements, 
-                           les entreprises et les organisations internationales. Les technologies de cyberdéfense évoluent rapidement pour détecter, prévenir et 
-                           neutraliser les attaques informatiques, qu'elles soient le fait de cybercriminels, d'États-nations ou de groupes de hackers. <br>
+                            Pour mon cas, J’ai dû réaliser environ 400 mails pour tous les employés de mon entreprise. Dans ce mail je leurs ai donné leur nouveau mot de passe 
+                            et adresse mail pour le nouveau compte Office.<br><br>
+                            Voici l’exemple d’un mail que j’ai envoyé : (caché le nom de la personne)
+                             <br><br>
+                             <div style="display: flex;">
+                                <img src="assets/imgs/mail20.png" style="height: 394px;">
+                                <img src="assets/imgs/mail21.png" style="height: 400px;">
+                            </div>
+                             <br><br>
+                             Malgrès la similitude des deux mails, nous pouvons remarquer deux différences :<br><br>
+                             - L'identifiant
+                             <br>
+                             - Le mot de passe
                            
                         </p>
                      </div>
-                     <div class="paragraph">
-                        <img src="assets/imgs/" alt="">
-                        <p>
-                           L'intelligence artificielle (IA) et l'apprentissage automatique sont au cœur des avancées en matière de cyberdéfense. Des entreprises 
-                           telles que Darktrace, Cylance et FireEye développent des solutions basées sur l'IA qui analysent le comportement du réseau pour détecter 
-                           les activités suspectes et les comportements anormaux [4]. Ces technologies permettent une détection précoce des menaces et une réponse 
-                           rapide aux incidents de sécurité, réduisant ainsi les risques et les dommages potentiels.<br>
-                           <a href="https://fr.darktrace.com/news/darktrace-and-endace-strike-new-partnership-to-combine-cyber-ai-and-forensics" target="_blank"><i>[4] Darktrace, "AI-Powered Cyber Defense," </i></a><br>
-                        </p>
-                     </div>
-                     <div class="paragraph">
-                        <img src="assets/imgs/" alt="">
-                        <p>
-                           Les technologies de détection d'anomalies, de gestion des vulnérabilités et de réponse aux incidents sont également en constante évolution 
-                           pour s'adapter aux nouvelles tactiques et techniques des cyberattaquants. Les organismes gouvernementaux, tels que l'Agence nationale de la 
-                           sécurité des systèmes d'information (ANSSI) en France et la National Security Agency (NSA) aux États-Unis, jouent un rôle crucial dans la 
-                           recherche et le développement de solutions de cyberdéfense avancées [5].<br>
-                           <a href="https://cyber.gouv.fr/rapports-dactivites" target="_blank">
-                           <i>[5] Agence nationale de la sécurité des systèmes d'information (ANSSI), "Rapport annuel sur la sécurité des systèmes d'information," 2023.  </i></a><br>
-                           
-                        </p>
-                     </div>
+                     
                </div>
            </div>
        </div><!-- end of about wrapper -->
@@ -212,27 +270,68 @@
 
 
     
+<!-- about section -->
+<section class="section" id="miseenplace" style="margin-top: 700px;">
+    <!-- container -->
+    <div class="container text-center">
+        <!-- about wrapper -->
+        <div class="about">
+            <div class="about-img-holder">
+                <!-- <img src="assets/imgs/" class="about-img"> -->
+            </div>
+            <div class="about-caption">
+                <p class="section-subtitle"></p>
+                <h2 class="section-title mb-3" style="color: #8181ee;">Mise en place </h2>
+                <p>
+                    Mes deux outil de travail étaient Microsoft Word <img src="assets/imgs/word.avif" style="height: 30px; display: inline-block;"> et Microsoft Excel <img src="assets/imgs/excel1.jpeg" style="height: 22px;">
+                    <br><br>
+                    J'ai utilisé un tableau <span style="color: #35cf5e;">Excel</span> et m'a servi comme base de données, il contenait des informations sur tous les utilisateurs :<br>
+                    <li>Nom </li>
+                    <li>Prénom</li>
+                    <li>Ancienne adresse e-mail (pour leur faire parvenir le mail)</li>
+                    <li>Nouvelle adresse e-mail</li>
+                    <li>Mot de passe pour la nouvelle boite mail </li>
+                    <br>
+                    Une fois le tableau <span style="color: #35cf5e;">excel</span> rempli, je suis passé sur <span style="color: #8181ee;">Word</span> :
+                    <br><br>
+                    <img src="assets/imgs/mail12.png" style="height: 600px;">
+                    <br><br>
+                    
+                    Voici le mail que j'ai utilisé comme base, nous pouvons observer :<img src="assets/imgs/mail14.png" style="height: 230px;"><br><br>
+                    <i>"email_dumarey"</i> et <i>"mot_de_passe"</i> correspondent au nom de la colonne dans le tableau <span style="color: #35cf5e;">Excel</span> ou se trouve le mail de chaque personne ainsi que leur mot de passe.
+                    <br><br> 
+                    <hr style="border: 1px solid #ccc; margin: 20px 0;">
+                    En haut, dans <span style="color: #8181ee;">Word</span>, nous avons cet onglet <i>"Aperçu des résultats"</i> qui permet de naviguer dans le tableau <span style="color: #35cf5e;">excel</span>, 
+                    sur la photo j'étais à la ligne 25 du tableau, c'est-à-dire qu'à la place d'avoir <i>"email_dumarey</i> et <i>"mot_de_passe"</i> J'avais le mail et le mot de passe 
+                    de la personne correspondant à la 25 lignes du tableau.
+                    <br><br> 
+                    <img src="assets/imgs/mail15.png">
 
+                    
+                </p>
+
+            </div>
+        </div><!-- end of about wrapper -->
+    </div><!-- end of container -->
+</section> <!-- end of about section -->
     
 
 
 <!-- about section -->
-<section class="section" id="section">
+<section class="section" id="section" style="margin-top: 1200px;">
    <!-- container -->
    <div class="container text-center">
        <!-- about wrapper -->
        <div class="about">
            <div class="about-img-holder">
-               <img src="assets/imgs/cyber2.jpeg" class="about-img">
+               <img src="assets/imgs/conclusion1.jpeg" class="about-img">
            </div>
            <div class="about-caption">
                <p class="section-subtitle"></p>
-               <h2 class="section-title mb-3">Conclusion</h2>
+               <h2 class="section-title mb-3"style="color: #8181ee;">Conclusion</h2>
                <p>
-                  La surveillance numérique et la cyberdéfense sont des domaines en constante évolution, où l'innovation technologique et 
-                  la sophistication des attaques exigent une vigilance continue et des investissements stratégiques. Alors que les outils 
-                  de surveillance deviennent de plus en plus invasifs et les cybermenaces plus complexes, il est impératif pour les gouvernements, 
-                  les entreprises et les particuliers de rester à l'avant-garde des technologies de protection des données et de la sécurité informatique.
+                Ainsi, en un clic j’ai pu envoyer 400 mail personnalisé. J’ai pu remplir une tâche qui m’a été demandé et qui devait prendre 
+                quelques jours à faire à la main en une demi-journée, le temps de me renseigner et d’effectuer des tests.
                </p>
 
            </div>
@@ -257,6 +356,33 @@
             
         </footer>
     </div> <!-- end of page footer -->
+
+
+    <button id="back-to-top-btn" style="position: fixed; bottom: 20px; left: 20px; background-color: #3498db; color: white; border: none; border-radius: 50%; padding: 15px 20px; cursor: pointer; font-size: 16px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); display: none;">
+        Retour</button>
+
+
+        <script>
+            var backToTopBtn = document.getElementById("back-to-top-btn");
+        
+            window.onscroll = function() {
+              // Si le défilement est supérieur à 20 pixels, afficher le bouton de retour
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                // Ajout d'un délai de 1000 millisecondes (1 seconde) avant d'afficher le bouton
+                setTimeout(function() {
+                  backToTopBtn.style.display = "block";
+                }, 1000); // Délai en millisecondes
+              } else {
+                backToTopBtn.style.display = "none";
+              }
+            };
+        
+            backToTopBtn.onclick = function() {
+              window.location.href = "index.html#service"; // Redirection vers index.html
+            };
+          </script>
+        
+
 
     <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
