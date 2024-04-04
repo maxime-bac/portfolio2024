@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Page Portfolio">
+    <meta name="author" content="Maxime">
+    <title>Portfolio Maxime </title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+
+      section{
+         height: 100vh;
+         margin: 0;
+      }
+
+    </style>
+
+
+
+
+</head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Solution de ticket</span>
+                <span class="down">GLPI</span>
+            </h1>
+            <p class="header-subtitle">
+                <img src="assets/imgs/glpi2.webp" style="height: 100px;">
+            </p>
+        </div>
+    </header><!-- end of page header -->
+
+
+
+
+
+
+
+    <!-- about section -->
+    <section class="section" id="section">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/mail.jpeg" class="about-img">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle"></p>
+                    <h2 class="section-title mb-3" style="color: #8181ee;">Problématique </h2>
+                    <p>
+                        Comment éviter les mails quand un utilisateur à un soucis informatique
+                        
+                    </p>
+
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+    
+
+
+
+<!-- about section -->
+<section class="section" id="section" style="margin-top: 1200px;">
+   <!-- container -->
+   <div class="container text-center">
+       <!-- about wrapper -->
+       <div class="about">
+           <div class="about-img-holder">
+               <img src="assets/imgs/conclusion1.jpeg" class="about-img">
+           </div>
+           <div class="about-caption">
+               <p class="section-subtitle"></p>
+               <h2 class="section-title mb-3"style="color: #8181ee;">Conclusion</h2>
+               <p>
+                Ainsi, en un clic j’ai pu envoyer 400 mail personnalisé. J’ai pu remplir une tâche qui m’a été demandé et qui devait prendre 
+                quelques jours à faire à la main en une demi-journée, le temps de me renseigner et d’effectuer des tests.
+               </p>
+
+           </div>
+       </div><!-- end of about wrapper -->
+   </div><!-- end of container -->
+</section> <!-- end of about section -->
+        
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright 
+                <script>document.write(new Date().getFullYear())</script> &copy; 
+                <a>Réalisé à la main à partir d'un bootstrap</a>
+            </p>
+            
+            
+        </footer>
+    </div> <!-- end of page footer -->
+
+
+    <button id="back-to-top-btn" style="position: fixed; bottom: 20px; left: 20px; background-color: #3498db; color: white; border: none; border-radius: 50%; padding: 15px 20px; cursor: pointer; font-size: 16px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); display: none;">
+        Retour</button>
+
+
+        <script>
+            var backToTopBtn = document.getElementById("back-to-top-btn");
+        
+            window.onscroll = function() {
+              // Si le défilement est supérieur à 20 pixels, afficher le bouton de retour
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                // Ajout d'un délai de 1000 millisecondes (1 seconde) avant d'afficher le bouton
+                setTimeout(function() {
+                  backToTopBtn.style.display = "block";
+                }, 1000); // Délai en millisecondes
+              } else {
+                backToTopBtn.style.display = "none";
+              }
+            };
+        
+            backToTopBtn.onclick = function() {
+              window.location.href = "index.html#service"; // Redirection vers index.html
+            };
+          </script>
+        
+
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- mettre Word en bleu et Excel en vert à chaque fois que ces mots apparaissent 
+    embellir le bouton retour
+regarder comment faire un retour vers une section de l'index-->
+
+
